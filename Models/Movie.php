@@ -8,4 +8,6 @@ class Movie extends Product
     $this->language = $language;
     parent::__construct($title,$cover,$price,$rating);
     }
+  
+    
 }
