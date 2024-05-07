@@ -2,7 +2,7 @@
 include __DIR__ . "/View/header.php";
 include __DIR__ . "/Models/Movie.php";
 $movies =[
-    new Movie ('Aguila y Jaguar: Los Guerreros Legendarios', 'it', 'https://image.tmdb.org/t/p/w342/6qR9WbXYIddZcVk6nxFULfHcKmK.jpg', 9.99, 10),
+    new Movie ('Babylon A.D.', 'en', 'https://image.tmdb.org/t/p/w342/kt9nqD0uOar8IVE9191HXhWOXKI.jpg', 9.99, 5.601),
 ]
 ?>
 
@@ -18,11 +18,10 @@ $movies =[
                         <div class="card-body">
                             <h5 class="card-title"><?= $movie->title ?></h5>
                             <p class="card-text"><?= $movie->language?></p>
-                            <!-- <p class="card-text"><?= $movie->cover?></p> -->
                             <p class="card-text"><?= $movie->price?></p>
                             <p class="card-text"><?= $movie->rating?></p>
 
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>

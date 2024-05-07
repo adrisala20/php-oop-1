@@ -20,11 +20,13 @@
     <script src="js/script.js" type="module"></script>
     <title>PHP-OOP-1</title>
 </head>
+
 <body>
-<header>
-    <div class="container">
-        <h1 class="text-center my-4 ">
-            FILM E LIBRI
-        </h1>
-    </div>
-</header>
+    <div class="app">
+        <header>
+            <div class="container">
+                <h1 class="text-center my-4 ">
+                    FILM E LIBRI
+                </h1>
+            </div>
+        </header>

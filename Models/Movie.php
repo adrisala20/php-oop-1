@@ -8,6 +8,10 @@ class Movie extends Product
     $this->language = $language;
     parent::__construct($title,$cover,$price,$rating);
     }
+
+    // public function getByLanguage($movies, $language){
+    //     return $movies.filter($movie.original_language === $language)
+    // }
   
     
 }
